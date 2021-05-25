@@ -1,18 +1,14 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":" For the function y=6, the value of area under the curve using the approximation method would be completely accurate.",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"True",
+            "b":"False"
           },
 "correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+{"question":" Decreasing the length of the interval will imporve tha accuracy of the approximation.",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
-          },
-"correctAnswer":"c"} 
+            "a":"True",
+    "b":"False"
+},
+"correctAnswer":"a"} 
 ]
