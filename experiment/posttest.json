@@ -8,7 +8,7 @@
   for ( i = a ; b &gt;= i ; i += width){
     sum = sum + cos(2*Pi/13*x) * width;
   }
-  printf("Integration value = %d", sum);
+  printf('Integration value = %d', sum);
 }'",
 "answers":{
             "a":"Improve the approximation",
