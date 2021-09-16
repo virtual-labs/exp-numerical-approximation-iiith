@@ -1,15 +1,5 @@
 [
-{"question":"Increasing the value of the variable width will :
-'main(){
-  int a , b , width , i;
-  double sum ;
-  scanf('%d%d', &amp;a; , &amp;b; );
-  sum = 0 ; width = 1 ; i = 0;
-  for ( i = a ; b &gt;= i ; i += width){
-    sum = sum + cos(2*Pi/13*x) * width;
-  }
-  printf('Integration value = %d', sum);
-}'",
+{"question":"Increasing the value of the variable width will : <img src='images/code.png'",
 "answers":{
             "a":"Improve the approximation",
             "b":"Will not have any affect",
