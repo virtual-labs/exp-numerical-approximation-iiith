@@ -1,18 +1,10 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"Increasing the value of the variable width will :<br/>   <img src='images/code.png'",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Improve the approximation",
+            "b":"Will not have any affect",
+            "c":"Make the approximation worse",
+            "d":"May improve or make worse depending on the interval"
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
-"answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
-          },
-"correctAnswer":"c"} 
+"correctAnswer":"c"}
 ]
