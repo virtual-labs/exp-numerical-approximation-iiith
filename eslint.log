@@ -1,0 +1,60 @@
+
+/home/runner/work/exp-numerical-approximation-iiith/exp-numerical-approximation-iiith/experiment/simulation/js/numericalApproximation.js
+   14:4   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   15:4   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   19:4   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   39:46  warning  'view' is not defined                                            no-undef
+   40:49  warning  'view' is not defined                                            no-undef
+   41:48  warning  'view' is not defined                                            no-undef
+   42:48  warning  'view' is not defined                                            no-undef
+   62:4   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   96:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   97:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   98:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+   99:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  100:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  100:4   warning  'model' is not defined                                           no-undef
+  101:3   warning  'model' is not defined                                           no-undef
+  104:3   warning  'model' is not defined                                           no-undef
+  106:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  107:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  108:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  109:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  110:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  111:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  112:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  113:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  126:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  133:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  134:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  135:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  136:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  137:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  140:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  141:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  142:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  143:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  184:12  warning  'position' is already defined                                    no-redeclare
+  242:3   warning  'model' is not defined                                           no-undef
+  245:3   warning  'model' is not defined                                           no-undef
+  246:25  warning  'model' is not defined                                           no-undef
+  248:31  warning  'model' is not defined                                           no-undef
+  252:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  252:39  warning  'model' is not defined                                           no-undef
+  253:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  254:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  255:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  256:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  257:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  258:1   warning  Mixed spaces and tabs                                            no-mixed-spaces-and-tabs
+  298:4   warning  'model' is not defined                                           no-undef
+  299:4   warning  'model' is not defined                                           no-undef
+  371:8   warning  'model' is not defined                                           no-undef
+  371:28  warning  'model' is not defined                                           no-undef
+  375:13  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  375:13  warning  'model' is not defined                                           no-undef
+  375:33  warning  'model' is not defined                                           no-undef
+  393:2   warning  'view' is not defined                                            no-undef
+
+✖ 55 problems (0 errors, 55 warnings)
+

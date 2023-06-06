@@ -1,0 +1,10 @@
+[
+{"question":"Increasing the value of the variable width will :<br/>   <img src='images/code.png'",
+"answers":{
+            "a":"Improve the approximation",
+            "b":"Will not have any affect",
+            "c":"Make the approximation worse",
+            "d":"May improve or make worse depending on the interval"
+          },
+"correctAnswer":"c"}
+]
