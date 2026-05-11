@@ -1,10 +1,69 @@
-[
-{"question":"Increasing the value of the variable width will :<br/>   <img src='images/code.png'",
-"answers":{
-            "a":"Improve the approximation",
-            "b":"Will not have any affect",
-            "c":"Make the approximation worse",
-            "d":"May improve or make worse depending on the interval"
-          },
-"correctAnswer":"c"}
-]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Increasing the value of the variable width will:<br/>   <img src='images/code.png'>",
+      "answers": {
+        "a": "Improve the approximation",
+        "b": "Will not have any effect",
+        "c": "Make the approximation worse",
+        "d": "May improve or make worse depending on the interval"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Increasing the width generally reduces accuracy.",
+        "b": "Incorrect. Changing the width affects the approximation.",
+        "c": "Correct. Increasing the width makes the approximation worse because fewer rectangles are used, so the fit is less accurate.",
+        "d": "Incorrect. While the effect may vary, generally increasing width worsens the approximation."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which method divides the interval into equal segments and uses the function value at the midpoint of each segment to estimate area?",
+      "answers": {
+        "a": "Left endpoint rule",
+        "b": "Right endpoint rule",
+        "c": "Midpoint rule",
+        "d": "Trapezoidal rule"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The left endpoint rule uses the function value at the start of each segment.",
+        "b": "Incorrect. The right endpoint rule uses the function value at the end of each segment.",
+        "c": "Correct. The midpoint rule uses the function value at the midpoint of each segment.",
+        "d": "Incorrect. The trapezoidal rule uses the average of the function values at the endpoints."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "3. For which type of function does the rectangle approximation method give the exact area under the curve?",
+      "answers": {
+        "a": "Linear functions",
+        "b": "Constant functions",
+        "c": "Quadratic functions",
+        "d": "Exponential functions"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Linear functions may not always be exactly approximated unless the interval matches the slope.",
+        "b": "Correct. For constant functions, the rectangle method gives the exact area.",
+        "c": "Incorrect. Quadratic functions are not exactly approximated by rectangles.",
+        "d": "Incorrect. Exponential functions are not exactly approximated by rectangles."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "4. True or False: Numerical approximation methods can be used to estimate the area under any curve, regardless of whether the function is integrable analytically.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Numerical methods can estimate the area under any curve, even if the function cannot be integrated analytically.",
+        "b": "Incorrect. Numerical methods are not limited by analytical integrability."
+      },
+      "difficulty": "beginner"
+    }
+  ]
+}
