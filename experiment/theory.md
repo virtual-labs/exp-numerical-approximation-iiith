@@ -1,8 +1,21 @@
-The problem finding area under a curve means calculating the area between a give curve and the x-axis( the line y=0), between two limits, say x=a and x=b. As you can remember from you high school mathematics, this problem is easily solvable by finding the integral of the function and plugging the values of the limits in the intergral. The difference of the limits gives the area under then curve. But there are some mathematical functions which are not integrable. Also, this method is applicable for only smooth functions. Can something be done to find the area under the curves which are not well behaved?
+Finding the area under a curve involves calculating the region between a given curve and the x-axis (the line $y=0$), within two specified limits, $x=a$ and $x=b$. Mathematically, this is typically solved by integrating the function and evaluating the result at these limits. The difference gives the exact area under the curve. However, not all functions can be integrated analytically, and this method works best for smooth, well-behaved functions.
 
-It turns out that people were able to "approximate" the solution to this problem to any reasonable arbitrary degree, for any arbitrary curve much before integration was discovered. As we all know that rectangle is the easiest of geometrical figures to find the area of, so the task of finding the area under a curve was expressed as a problem of finding the area of vertical rectangular strips. The boundary limits is divided into some x equal intervals of length(l) equal to l=(b-a)/n. Now, the area falling under each of these strips is approximated using an rectangle whose width is equal to the width of interval and height is equal to the value of the function at the beginning of the interval. A variation of this algorithm takes the value of the function at the middle of the interval. Now, the area under the curve is just the sum of areas of the individual strips.
+In many practical situations, especially in computer programming, we use numerical approximation methods to estimate the area under a curve. These methods are essential when an exact analytical solution is not possible or is too complex to obtain.
 
+The basic idea behind numerical approximation is to divide the interval $[a, b]$ into $n$ equal segments, each of width $l = \frac{b-a}{n}$. The area under the curve in each segment is approximated by a simple geometric shape, such as a rectangle or a trapezoid. The height of each rectangle can be taken as the value of the function at the start, end, or midpoint of the segment. The total area is then the sum of the areas of all these shapes.
 
-<img src="images/arch.gif">
+For example, the **rectangle (midpoint) rule** estimates the area as:
 
-It is easy to see that the result of this approximation would get better and better as the legnth of the interval is decreased. If they are made infinitesimally small, then we can get the exact area under the curve. But this is not possible using a computer where you can only specify numbers to a certain degree of precision. Still it is possible to approximate the area under the curve to a reasonable degree for practical purposes using a computer. 
+$$
+	ext{Area} \approx \sum_{i=0}^{n-1} f(x_i) \cdot l
+$$
+
+where $x_i$ is a sample point in the $i$-th segment.
+
+As the number of segments $n$ increases (i.e., as the width $l$ decreases), the approximation becomes more accurate. In the limit as $n \to \infty$, the numerical approximation approaches the exact area.
+
+On a computer, we are limited by finite precision, but by choosing a sufficiently large $n$, we can achieve highly accurate results for practical purposes. Numerical approximation techniques are widely used in scientific computing, engineering, and many fields where analytical solutions are not feasible.
+
+<img src="images/arch.gif" alt="Area under a curve illustration">
+
+In this experiment, you will learn how to implement and use numerical approximation methods in code to estimate the area under a curve. This approach demonstrates how computers can solve mathematical problems to a high degree of accuracy, even when exact solutions are not available.

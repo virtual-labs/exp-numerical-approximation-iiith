@@ -1,15 +1,65 @@
-[
-{"question":"1. For the function y=6, the value of area under the curve using the approximation method would be completely accurate.",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"a"},
-
-{"question":"2. Decreasing the length of the interval will imporve tha accuracy of the approximation.",
-"answers":{
-            "a":"True",
-            "b":"False"
-},
-"correctAnswer":"a"} 
-]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. For the function y=6, the value of area under the curve using the approximation method would be completely accurate.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Since y=6 is a constant function, the area under the curve is a rectangle, so the approximation method gives the exact value.",
+        "b": "Incorrect. For a constant function, the approximation method is completely accurate."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Decreasing the length of the interval will improve the accuracy of the approximation.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Smaller intervals mean more rectangles, which fit the curve better and improve accuracy.",
+        "b": "Incorrect. Decreasing the interval length increases accuracy."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a key advantage of numerical approximation methods for area calculation?",
+      "answers": {
+        "a": "They always give exact answers",
+        "b": "They can be used for any function, even if not integrable",
+        "c": "They are only for linear functions",
+        "d": "They require no computation"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Numerical methods provide approximate answers, not always exact.",
+        "b": "Correct. Numerical approximation can be used for any function, even those that are not integrable analytically.",
+        "c": "Incorrect. These methods are not limited to linear functions.",
+        "d": "Incorrect. Numerical methods require computation."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. Suppose you use the midpoint rule for numerical integration. Which statement is true about its accuracy compared to the left endpoint rule?",
+      "answers": {
+        "a": "Midpoint rule is always less accurate",
+        "b": "Midpoint rule is always more accurate",
+        "c": "Both are equally accurate",
+        "d": "Accuracy depends on the function"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The midpoint rule is not always less accurate.",
+        "b": "Incorrect. The midpoint rule is not always more accurate.",
+        "c": "Incorrect. Accuracy varies depending on the function.",
+        "d": "Correct. The accuracy of the midpoint rule compared to the left endpoint rule depends on the function being integrated."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
