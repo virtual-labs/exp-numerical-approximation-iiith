@@ -1,0 +1,25 @@
+
+/home/runner/work/exp-numerical-approximation-iiith/exp-numerical-approximation-iiith/experiment/simulation/js/numericalApproximation.js
+   40:7   warning  'view' is not defined          no-undef
+   43:7   warning  'view' is not defined          no-undef
+   46:7   warning  'view' is not defined          no-undef
+   49:7   warning  'view' is not defined          no-undef
+  108:5   warning  'model' is not defined         no-undef
+  109:5   warning  'model' is not defined         no-undef
+  112:5   warning  'model' is not defined         no-undef
+  191:14  warning  'position' is already defined  no-redeclare
+  248:9   warning  'model' is not defined         no-undef
+  248:30  warning  'model' is not defined         no-undef
+  249:7   warning  'model' is not defined         no-undef
+  252:29  warning  'model' is not defined         no-undef
+  254:35  warning  'model' is not defined         no-undef
+  255:7   warning  'model' is not defined         no-undef
+  260:40  warning  'model' is not defined         no-undef
+  309:7   warning  'model' is not defined         no-undef
+  310:7   warning  'model' is not defined         no-undef
+  378:11  warning  'model' is not defined         no-undef
+  378:31  warning  'model' is not defined         no-undef
+  398:3   warning  'view' is not defined          no-undef
+
+✖ 20 problems (0 errors, 20 warnings)
+
