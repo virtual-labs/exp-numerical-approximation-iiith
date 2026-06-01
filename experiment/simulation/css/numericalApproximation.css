@@ -101,7 +101,7 @@ body {
   left: 8%;
   width: 15vh;
   height: 6.7vh;
-  background-image: url("/simulation/images/iiitLogo.png");
+  background-image: url("../images/iiitLogo.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -169,7 +169,7 @@ body {
   width: 20%;
   float: left;
   height: 100%;
-  background-image: url("/simulation/images/initIcon.png");
+  background-image: url("../images/initIcon.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -180,7 +180,7 @@ body {
   width: 20%;
   float: left;
   height: 100%;
-  background-image: url("/simulation/images/quesIcon.png");
+  background-image: url("../images/quesIcon.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -197,7 +197,7 @@ body {
   width: 25%;
   float: left;
   height: 100%;
-  background-image: url("/simulation/images/pageIcon.png");
+  background-image: url("../images/pageIcon.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -215,7 +215,7 @@ body {
   width: 25%;
   float: left;
   height: 100%;
-  background-image: url("/simulation/images/outputIcon.png");
+  background-image: url("../images/outputIcon.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -452,7 +452,7 @@ body {
     width: 20%;
     float: left;
     height: 100%;
-    background-image: url("/simulation/images/initIcon.png");
+    background-image: url("../images/initIcon.png");
     background-repeat: no-repeat;
     background-color: transparent;
   }
@@ -612,7 +612,7 @@ body {
     width: 20%;
     float: left;
     height: 100%;
-    background-image: url("/simulation/images/initIcon.png");
+    background-image: url("../images/initIcon.png");
     background-repeat: no-repeat;
     background-color: transparent;
   }
@@ -694,7 +694,7 @@ body {
     width: 25%;
     float: left;
     height: 100%;
-    background-image: url("/simulation/images/outputIcon.png");
+    background-image: url("../images/outputIcon.png");
     background-repeat: no-repeat;
     background-color: transparent;
   }
@@ -791,7 +791,7 @@ body {
     width: 20%;
     float: left;
     height: 100%;
-    background-image: url("/simulation/images/initIcon.png");
+    background-image: url("../images/initIcon.png");
     background-repeat: no-repeat;
     background-color: transparent;
   }
@@ -873,7 +873,7 @@ body {
     width: 25%;
     float: left;
     height: 100%;
-    background-image: url("/simulation/images/outputIcon.png");
+    background-image: url("../images/outputIcon.png");
     background-repeat: no-repeat;
     background-color: transparent;
   }
